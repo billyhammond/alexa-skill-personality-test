@@ -23,7 +23,7 @@ const BACKGROUND_GOODBYE_IMAGE_URL = "https://s3.amazonaws.com/coach-courses-us/
 const BACKGROUND_HELP_IMAGE_URL = "https://s3.amazonaws.com/coach-courses-us/public/courses/voice/2.7/help.jpg";
 // const BACKGROUND_HELP_IMAGE_URL = "help.jpg";
 
-const WELCOME_MESSAGE = "Hi! I can tell you what animal you're most like. All you have to do is answer five questions with either yes or no. Are you ready to start?";
+const WELCOME_MESSAGE = "Welcome! Have you ever wondered what type of animal personality you have? To find out, answer five yes or no questions. Ready?";
 const INITIAL_QUESTION_INTROS = [
   "Great! Let's start!",
   "<say-as interpret-as='interjection'>Alrighty</say-as>! Here comes your first question!",
