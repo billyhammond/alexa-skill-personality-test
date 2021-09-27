@@ -8,8 +8,8 @@ Data: Customize the data below as you please.
 
 
 const SKILL_NAME = "Personality Quiz";
-const HELP_MESSAGE_BEFORE_START = "Before we play, answer five simple questions to find out your animal personality. Ready?";
-const HELP_MESSAGE_AFTER_START = "Please say yes or now then I'll share your results at the end";
+const HELP_MESSAGE_BEFORE_START = "Have you ever wondered what animal am I? Wonder no more! Before we play, answer five simple questions to find out your animal personality. Ready?";
+const HELP_MESSAGE_AFTER_START = "Please say yes or no then I'll share your results at the end";
 const HELP_REPROMPT = "Sure, when you complete all the questions, then I will tell you what your animal personality is";
 const STOP_MESSAGE = "OK, let's play again sometime. Goddbye";
 const MISUNDERSTOOD_INSTRUCTIONS_ANSWER = "PSorry, I didn't understand that. Go ahead and respond with yes or no";
