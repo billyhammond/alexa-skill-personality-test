@@ -50,50 +50,50 @@ const PLAY_AGAIN_REQUEST = "That was fun.  Would you like to play again?";
 
 const resultList = {
   result1: {
-    name: "a red-knobbed starfish",
-    display_name: "Red-Knobbed Starfish",
-    audio_message: "Starfish are amazing and can regrow their own limbs.",
-    description: "Red-knobbed starfish are known for being the fashionistas of the salt water world. They always know how to look good in any circumstance. You might enjoy hanging around the edge of the pool and keeping an eye on everyone.",
+    name: "Sloth",
+    display_name: "Sloth",
+    audio_message: "Peaceful and easygoing, sloths take things at their own pace and live moment to moment.",
+    description: "Peaceful and easygoing, sloths take things at their own pace and live moment to moment. They are considerate, pleasant, caring, and mellow. Please Don't call them lazy they are just more relaxed than the rest of us..",
     img: {
       largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Red-knobbed.starfish.1200.jpg"
       //largeImageUrl: "result1.jpg",
     }
   },
   result2: {
-    name: "a rust mite",
-    display_name: "Rust Mite",
-    audio_message: "You are nearly invisible to the naked eye, but you aren't to be underestimated.",
-    description: "Dear old Aceria anthocoptes. Small but mighty, you love hanging around outdoors and have an unnatural affinity for thistles. Don't let anyone hold you back - while people don't notice you at first, you can have a big impact on the things around you.",
+    name: "Lion",
+    display_name: "Lion",
+    audio_message: "Lions are independent and logical thinkers who are also persuasive leaders.",
+    description: " Independent and logical thinkers who are also persuasive leaders, Linos are business-minded and ambitious ready to sieze opportunity. ",
     img: {
       largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Aceria_anthocoptes.1200.jpg"
       //largeImageUrl: "result2.jpg",
     }
   },
   result3: {
-    name: "a macaw",
-    display_name: "Hyacinth Macaw",
-    audio_message: "Macaws are smart and fabulous.",
-    description: "Your striking appearance is the talk of every party. You are always the most colorfully dressed one around. You're also one smart cookie - you were using tools to make your tasks easier before it was cool.",
+    name: "Octopus",
+    display_name: "Octopus",
+    audio_message: "Independent types, wildly intelligent and creative.",
+    description: "Independent types, wildly intelligent and creative.  Un-interested in what anyone else is doing and they work best when given freedom. They are acutely aware of their own intelligence, as well as what they don't know, and their passion often lies in conceptualizing ideas and processing complex theories.",
     img: {
       largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Anodorhynchus_hyacinthinus.1200.jpg"
       //largeImageUrl: "result3.jpg",
     }
   },
   result4: {
-    name: "a goat",
-    display_name: "Good Old Goat",
-    audio_message: "Baaa! You are a goat.",
-    description: "Goats are some of the most amazing animals on Earth. Constantly underestimated, they are nearly as impervious to other peoples' opinions as honey badgers. You are quite handy to have around, as you're always happy to take care of leftovers at any party.",
+    name: "Otter",
+    display_name: "Otter",
+    audio_message: "Living in the moment and are incredibly playful, generous, and optimistic..",
+    description: "Living in the moment and are incredibly playful, generous, and optimistic. They love being social and having new experiences. they would prefer to simply go with the flow and have a great time.",
     img: {
       largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Male_goat.1200.jpg"
       //largeImageUrl: "result4.jpg",
     }
   },
   result5: {
-    name: "a toad",
-    display_name: "Toad",
-    audio_message: "You dig relaxing and hanging around in the sunshine.",
-    description: "You are athletic and cool, the apple of everyone's eye. You really know how to take it easy and like to spend lots of time basking in the sun and enjoying the great outdoors. When you want to, you can be quite fast and nimble. You're always the first pick for team sports.",
+    name: "Parrot",
+    display_name: "Parrot",
+    audio_message: "Intelligence and competence trump over all other things.",
+    description: "Intelligence and competence trump over all other things (both in themselves and in others). They are often described as witty, clever, cerebral, and resourceful. They are verbally creative thinkers and workers. They sometimes chatter.",
     img: {
       largeImageUrl: "https://coach-courses-us.s3.amazonaws.com/public/courses/voice/Example%20images%20skill%203/Bufo_boreas.1200.jpg"
       //largeImageUrl: "result5.jpg",
@@ -102,8 +102,8 @@ const resultList = {
 };
 
 const questions = [{
-    question: "Do you like spending time socializing with others?",
-    questionDisplay: "Do you like spending time socializing?",
+    question: "Do you consider yourself pleasant, caring, or mellow?",
+    questionDisplay: "Are you pleasant, caring or mellow?",
     background:  "https://s3.amazonaws.com/coach-courses-us/public/courses/voice/2.7/q1.jpg", 
     //background: "question1.jpg",
     points: {
@@ -115,8 +115,8 @@ const questions = [{
     }
   },
   {
-    question: "Do you enjoy sunbathing?",
-    questionDisplay: "Do you enjoy sunbathing?",
+    question: "Do you consider yourself a independent and logical thinker?",
+    questionDisplay: "Are you a independent and logical thinker?",
     background: "https://s3.amazonaws.com/coach-courses-us/public/courses/voice/2.7/q2.jpg", 
     //background: "question2.jpg",
     points: {
@@ -128,8 +128,8 @@ const questions = [{
     }
   },
   {
-    question: "Do you enjoy reading a good book more than going out to a party?",
-    questionDisplay: "Do you enjoy a book more than a party?",
+    question: "Do you consider yourself wildly intelligent and creative rather un-interested in what anyone else is doing?",
+    questionDisplay: "Are you wildly intelligent and creative?",
     background: "https://s3.amazonaws.com/coach-courses-us/public/courses/voice/2.7/q3.jpg", 
     //background: "question3.jpg",
     points: {
@@ -141,8 +141,8 @@ const questions = [{
     }
   },
   {
-    question: "Do you like doing sports?",
-    questionDisplay: "Do you like doing sports?",
+    question: "Do you consider yourself playful, generous, and optimistic. Do you love being social and having new experiences.?",
+    questionDisplay: "Are you playful, generous, and optimistic?",
     background: "https://s3.amazonaws.com/coach-courses-us/public/courses/voice/2.7/q4.jpg", 
     //background: "question4.jpg",
     points: {
@@ -154,8 +154,8 @@ const questions = [{
     }
   },
   {
-    question: "Do you prefer vacationing in the forest instead of on the beach?",
-    questionDisplay: "A beach vs a forest. Forest? Yes or no?",
+    question: "Do you consider yourself witty, clever, cerebral, and resourceful.?",
+    questionDisplay: "Are you witty, clever, cerebral, and resourceful.?",
     background: "https://s3.amazonaws.com/coach-courses-us/public/courses/voice/2.7/q5.jpg", 
     //background: "question5.jpg",
     points: {
