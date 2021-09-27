@@ -8,11 +8,11 @@ Data: Customize the data below as you please.
 
 
 const SKILL_NAME = "Personality Quiz";
-const HELP_MESSAGE_BEFORE_START = "Answer five questions, and I will tell you what animal you are. Are you ready to play?";
-const HELP_MESSAGE_AFTER_START = "Just respond with yes or no and I'll give you the result in the end.";
-const HELP_REPROMPT = "Your animal will be revealed after you answer all my yes or no questions.";
-const STOP_MESSAGE = "Your spirit animal will be waiting for you next time.";
-const MISUNDERSTOOD_INSTRUCTIONS_ANSWER = "Please answer with either yes or no.";
+const HELP_MESSAGE_BEFORE_START = "Before we play, answer five simple questions to find out your animal personality. Ready?";
+const HELP_MESSAGE_AFTER_START = "Please say yes or now then I'll share your results at the end";
+const HELP_REPROMPT = "Sure, when you complete all the questions, then I will tell you what your animal personality is";
+const STOP_MESSAGE = "OK, let's play again sometime. Goddbye";
+const MISUNDERSTOOD_INSTRUCTIONS_ANSWER = "PSorry, I didn't understand that. Go ahead and respond with yes or no";
 const HINT_TEXT = `To play again, just say "Alexa, open ${SKILL_NAME}"`
 
 
