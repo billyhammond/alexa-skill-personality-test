@@ -25,33 +25,28 @@ const BACKGROUND_HELP_IMAGE_URL = "https://s3.amazonaws.com/coach-courses-us/pub
 
 const WELCOME_MESSAGE = "Welcome! Have you ever wondered what type of animal personality you have? To find out, answer five yes or no questions. Ready?";
 const INITIAL_QUESTION_INTROS = [
-  "Great! Let's start!",
-  "<say-as interpret-as='interjection'>Alrighty</say-as>! Here comes your first question!",
-  "Ok lets go. <say-as interpret-as='interjection'>Ahem</say-as>.",
-  "<say-as interpret-as='interjection'>well well</say-as>."
+  "Fantastic, we can begin",
+  "<say-as interpret-as='interjection'>Super!</say-as>! Question one",
+  "Awesome, let's start <say-as interpret-as='interjection'>Here we go question one</say-as>.",
+  "<say-as interpret-as='interjection'>ok super, let's play</say-as>."
 ];
 const QUESTION_INTROS = [
-  "Oh dear.",
-  "Okey Dokey",
-  "You go, human!",
-  "Sure thing.",
-  "I would have said that too.",
-  "Of course.",
-  "I knew it.",
-  "Totally agree.",
-  "So true.",
-  "I agree."
+  "Ok, next question.",
+  "Alrighty then",
+  "You're pretty smart, for a human!",
+  "Sounds great.",
+  "Got it",
 ];
 const UNDECISIVE_RESPONSES = [
-  "<say-as interpret-as='interjection'>Honk</say-as>. I'll just choose for you.",
-  "<say-as interpret-as='interjection'>Nanu Nanu</say-as>. I picked an answer for you.",
-  "<say-as interpret-as='interjection'>Uh oh</say-as>... well nothing I can do about that.",
-  "<say-as interpret-as='interjection'>Aha</say-as>. We will just move on then.",
-  "<say-as interpret-as='interjection'>Aw man</say-as>. How about this question?",
+  "<say-as interpret-as='interjection'>Honk</say-as>. No worries, I'll choose one.",
+  "<say-as interpret-as='interjection'>Nanu Nanu</say-as>. I'm on it.",
+  "<say-as interpret-as='interjection'>Uh oh</say-as>... well, let's go to the next question.",
+  "<say-as interpret-as='interjection'>Aha</say-as>. No problem, we can move on.",
+  "<say-as interpret-as='interjection'>Aw man</say-as>. What do you think about this question?",
 ];
-const RESULT_MESSAGE = "Here comes the big reveal! You are "; // the name of the result is inserted here.
-const RESULT_MESSAGE_SHORT = "You are "; // the name of the result is inserted here.
-const PLAY_AGAIN_REQUEST = "That was it. Do you want to play again?";
+const RESULT_MESSAGE = "Drum roll please! Your animal personality is"; // the name of the result is inserted here.
+const RESULT_MESSAGE_SHORT = "This is the animal you are"; // the name of the result is inserted here.
+const PLAY_AGAIN_REQUEST = "That was fun.  Would you like to play again?";
 
 const resultList = {
   result1: {
