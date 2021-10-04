@@ -115,7 +115,7 @@ const questions = [{
     }
   },
   {
-    question: "Do you consider yourself a independent and logical thinker?",
+    question: "Do you consider yourself an independent or logical thinker?",
     questionDisplay: "Are you a independent and logical thinker?",
     background: "https://s3.amazonaws.com/coach-courses-us/public/courses/voice/2.7/q2.jpg", 
     //background: "question2.jpg",
@@ -141,7 +141,7 @@ const questions = [{
     }
   },
   {
-    question: "Do you consider yourself playful, generous, and optimistic. Do you love being social and having new experiences.?",
+    question: "Do you consider yourself playful, generous, or optimistic. Do you love being social and having new experiences.?",
     questionDisplay: "Are you playful, generous, and optimistic?",
     background: "https://s3.amazonaws.com/coach-courses-us/public/courses/voice/2.7/q4.jpg", 
     //background: "question4.jpg",
@@ -154,7 +154,7 @@ const questions = [{
     }
   },
   {
-    question: "Do you consider yourself witty, clever, cerebral, and resourceful.?",
+    question: "Do you consider yourself witty, clever, cerebral, or resourceful.?",
     questionDisplay: "Are you witty, clever, cerebral, and resourceful.?",
     background: "https://s3.amazonaws.com/coach-courses-us/public/courses/voice/2.7/q5.jpg", 
     //background: "question5.jpg",
